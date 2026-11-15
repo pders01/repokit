@@ -1,0 +1,26 @@
+{
+  "name": "@jpahd/repository-tools-workspace",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Headless repository, source annotation, context and GitChat integration libraries.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "packageManager": "npm@10.9.9",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "build": "node scripts/packages.mjs build",
+    "check": "node scripts/packages.mjs check",
+    "test": "node scripts/packages.mjs test",
+    "test:packed": "node scripts/test-extracted-packages.mjs",
+    "verify": "node scripts/packages.mjs verify",
+    "annotations": "node packages/source-annotations/dist/bin.js"
+  },
+  "devDependencies": {
+    "@bufbuild/protobuf": "2.14.0",
+    "@connectrpc/connect": "2.1.2",
+    "@connectrpc/connect-web": "2.1.2",
+    "@types/node": "26.2.0",
+    "typescript": "5.9.3"
+  }
+}

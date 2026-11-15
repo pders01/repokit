@@ -1,0 +1,24 @@
+{
+  "name": "@jpahd/commits-core",
+  "version": "0.0.0",
+  "private": true,
+  "description": "DOM-free contracts, bounded state and patch helpers for read-only commit history.",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "files": ["dist", "README.md", "LICENSE"],
+  "sideEffects": false,
+  "exports": {
+    ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" },
+    "./contracts": { "types": "./dist/contracts.d.ts", "import": "./dist/contracts.js" },
+    "./state": { "types": "./dist/reader-state.d.ts", "import": "./dist/reader-state.js" }
+  },
+  "devDependencies": { "@types/node": "^22.10.0", "typescript": "5.9.3" },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc --noEmit -p tsconfig.json",
+    "test": "npm run build && tsc -p tsconfig.test.json && node --test ./.test-dist/*.test.js ./node-test/*.node.mjs",
+    "check:package": "npm run build && node scripts/check-package.mjs",
+    "dev": "tsc -p tsconfig.json --watch"
+  }
+}

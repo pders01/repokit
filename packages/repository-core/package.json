@@ -1,0 +1,25 @@
+{
+  "name": "@jpahd/repository-core",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Host-independent bounded immutable repository reads using native Git.",
+  "type": "module",
+  "files": ["dist", "docs", "README.md", "LICENSE"],
+  "sideEffects": false,
+  "engines": { "node": ">=22" },
+  "exports": {
+    "./workspace": { "types": "./dist/workspace.d.ts", "import": "./dist/workspace.js" },
+    ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" },
+    "./git": { "types": "./dist/git.d.ts", "import": "./dist/git.js" },
+    "./bounded-stream": { "types": "./dist/bounded-stream.d.ts", "import": "./dist/bounded-stream.js" },
+    "./text-preview": { "types": "./dist/text-preview.d.ts", "import": "./dist/text-preview.js" },
+    "./repository-log": { "types": "./dist/repository-log.d.ts", "import": "./dist/repository-log.js" }
+  },
+  "devDependencies": {"typescript":"5.9.3","@types/node":"26.2.0"},
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc --noEmit -p tsconfig.json",
+    "test": "node --test test/*.test.mjs"
+  }
+}

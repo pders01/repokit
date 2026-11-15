@@ -1,0 +1,2 @@
+# Preserve pinned Buf output byte-for-byte, including its final blank line.
+packages/git-chat-protocol/src/gen/**/*.ts linguist-generated=true whitespace=-blank-at-eof

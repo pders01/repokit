@@ -1,0 +1,23 @@
+{
+  "name": "@jpahd/source-annotations",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "files": ["dist", "README.md", "LICENSE"],
+  "exports": {
+    ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" },
+    "./contracts": { "types": "./dist/contracts.d.ts", "import": "./dist/contracts.js" },
+    "./cli": { "types": "./dist/cli.d.ts", "import": "./dist/cli.js" }
+  },
+  "bin": { "source-annotations": "./dist/bin.js" },
+  "devDependencies": {"typescript":"5.9.3","@types/node":"26.2.0"},
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc -p tsconfig.json --noEmit",
+    "check:contracts": "tsc -p tsconfig.contracts.json",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": { "@jpahd/repository-core": "0.0.0" }
+}

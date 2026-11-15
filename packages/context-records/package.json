@@ -1,0 +1,46 @@
+{
+  "name": "@jpahd/context-records",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Source-linked context provenance, chronology and explicit prompt selection.",
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./sources": {
+      "types": "./dist/context-sources.d.ts",
+      "import": "./dist/context-sources.js"
+    },
+    "./policy": {
+      "types": "./dist/context-policy.d.ts",
+      "import": "./dist/context-policy.js"
+    },
+    "./aggregation": {
+      "types": "./dist/context-aggregation.d.ts",
+      "import": "./dist/context-aggregation.js"
+    },
+    "./prompt": {
+      "types": "./dist/context-prompt.d.ts",
+      "import": "./dist/context-prompt.js"
+    },
+    "./inputs": {
+      "types": "./dist/inputs.d.ts",
+      "import": "./dist/inputs.js"
+    }
+  },
+  "devDependencies": {"typescript":"5.9.3"},
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc --noEmit -p tsconfig.json",
+    "test": "node --test test/*.test.mjs"
+  }
+}

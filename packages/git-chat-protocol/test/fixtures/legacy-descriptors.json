@@ -1,0 +1,899 @@
+{
+  "chatworksRevision": "679a8e2fc96223f16a64f72e5c2b87b5a9090e7e",
+  "gitChatRevision": "c644bb1b33ddb9d3e1a64a88e3990760c0d9ddb6",
+  "files": {
+    "auth": {
+      "sourceSha256": "11f8a9e96ebe5394a859b8e8ed17bee27a8a7052d868acfec2e308b1c3d7045a",
+      "observedProtoSha256": "3b5b364e13d02ae289a4414e983559ec2423710becb6d8ea54f1c1eba71e92d8",
+      "descriptorBase64": "ChVnaXRjaGF0L3YxL2F1dGgucHJvdG8SCmdpdGNoYXQudjEiFQoTU3RhcnRQYWlyaW5nUmVxdWVzdCJFChRTdGFydFBhaXJpbmdSZXNwb25zZRILCgNzaWQYASABKAkSDAoEY29kZRgCIAEoCRISCgpleHBpcmVzX2F0GAMgASgDIiIKE1dhdGNoUGFpcmluZ1JlcXVlc3QSCwoDc2lkGAEgASgJImwKFFdhdGNoUGFpcmluZ1Jlc3BvbnNlEiQKBnBhaXJlZBgBIAEoCzISLmdpdGNoYXQudjEuUGFpcmVkSAASJgoHZXhwaXJlZBgCIAEoCzITLmdpdGNoYXQudjEuRXhwaXJlZEgAQgYKBGtpbmQiMAoGUGFpcmVkEhMKC2NsYWltX3Rva2VuGAEgASgJEhEKCXByaW5jaXBhbBgCIAEoCSIZCgdFeHBpcmVkEg4KBnJlYXNvbhgBIAEoCSIwCgxDbGFpbVJlcXVlc3QSCwoDc2lkGAEgASgJEhMKC2NsYWltX3Rva2VuGAIgASgJIiIKDUNsYWltUmVzcG9uc2USEQoJcHJpbmNpcGFsGAEgASgJIiIKEUxvY2FsQ2xhaW1SZXF1ZXN0Eg0KBXRva2VuGAEgASgJIicKEkxvY2FsQ2xhaW1SZXNwb25zZRIRCglwcmluY2lwYWwYASABKAkiDwoNV2hvYW1pUmVxdWVzdCJHCg5XaG9hbWlSZXNwb25zZRIRCglwcmluY2lwYWwYASABKAkSIgoEbW9kZRgCIAEoDjIULmdpdGNoYXQudjEuQXV0aE1vZGUiDwoNTG9nb3V0UmVxdWVzdCIQCg5Mb2dvdXRSZXNwb25zZSpQCghBdXRoTW9kZRIZChVBVVRIX01PREVfVU5TUEVDSUZJRUQQABITCg9BVVRIX01PREVfTE9DQUwQARIUChBBVVRIX01PREVfUEFJUkVEEAIywgMKC0F1dGhTZXJ2aWNlElEKDFN0YXJ0UGFpcmluZxIfLmdpdGNoYXQudjEuU3RhcnRQYWlyaW5nUmVxdWVzdBogLmdpdGNoYXQudjEuU3RhcnRQYWlyaW5nUmVzcG9uc2USUwoMV2F0Y2hQYWlyaW5nEh8uZ2l0Y2hhdC52MS5XYXRjaFBhaXJpbmdSZXF1ZXN0GiAuZ2l0Y2hhdC52MS5XYXRjaFBhaXJpbmdSZXNwb25zZTABEjwKBUNsYWltEhguZ2l0Y2hhdC52MS5DbGFpbVJlcXVlc3QaGS5naXRjaGF0LnYxLkNsYWltUmVzcG9uc2USSwoKTG9jYWxDbGFpbRIdLmdpdGNoYXQudjEuTG9jYWxDbGFpbVJlcXVlc3QaHi5naXRjaGF0LnYxLkxvY2FsQ2xhaW1SZXNwb25zZRI/CgZXaG9hbWkSGS5naXRjaGF0LnYxLldob2FtaVJlcXVlc3QaGi5naXRjaGF0LnYxLldob2FtaVJlc3BvbnNlEj8KBkxvZ291dBIZLmdpdGNoYXQudjEuTG9nb3V0UmVxdWVzdBoaLmdpdGNoYXQudjEuTG9nb3V0UmVzcG9uc2VCnQEKDmNvbS5naXRjaGF0LnYxQglBdXRoUHJvdG9QAVo3Z2l0aHViLmNvbS9wZGVyczAxL2dpdC1jaGF0L2dlbi9nby9naXRjaGF0L3YxO2dpdGNoYXR2MaICA0dYWKoCCkdpdGNoYXQuVjHKAgpHaXRjaGF0XFYx4gIWR2l0Y2hhdFxWMVxHUEJNZXRhZGF0YeoCC0dpdGNoYXQ6OlYxYgZwcm90bzM",
+      "exports": [
+        {
+          "kind": "const",
+          "name": "file_gitchat_v1_auth"
+        },
+        {
+          "kind": "type",
+          "name": "StartPairingRequest"
+        },
+        {
+          "kind": "const",
+          "name": "StartPairingRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "StartPairingResponse"
+        },
+        {
+          "kind": "const",
+          "name": "StartPairingResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "WatchPairingRequest"
+        },
+        {
+          "kind": "const",
+          "name": "WatchPairingRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "WatchPairingResponse"
+        },
+        {
+          "kind": "const",
+          "name": "WatchPairingResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "Paired"
+        },
+        {
+          "kind": "const",
+          "name": "PairedSchema"
+        },
+        {
+          "kind": "type",
+          "name": "Expired"
+        },
+        {
+          "kind": "const",
+          "name": "ExpiredSchema"
+        },
+        {
+          "kind": "type",
+          "name": "ClaimRequest"
+        },
+        {
+          "kind": "const",
+          "name": "ClaimRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "ClaimResponse"
+        },
+        {
+          "kind": "const",
+          "name": "ClaimResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "LocalClaimRequest"
+        },
+        {
+          "kind": "const",
+          "name": "LocalClaimRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "LocalClaimResponse"
+        },
+        {
+          "kind": "const",
+          "name": "LocalClaimResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "WhoamiRequest"
+        },
+        {
+          "kind": "const",
+          "name": "WhoamiRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "WhoamiResponse"
+        },
+        {
+          "kind": "const",
+          "name": "WhoamiResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "LogoutRequest"
+        },
+        {
+          "kind": "const",
+          "name": "LogoutRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "LogoutResponse"
+        },
+        {
+          "kind": "const",
+          "name": "LogoutResponseSchema"
+        },
+        {
+          "kind": "enum",
+          "name": "AuthMode"
+        },
+        {
+          "kind": "const",
+          "name": "AuthModeSchema"
+        },
+        {
+          "kind": "const",
+          "name": "AuthService"
+        }
+      ]
+    },
+    "chat": {
+      "sourceSha256": "c58bf329d7730df0398baaf19fc104f39c20a9a31604231f83920774ff2f5a56",
+      "observedProtoSha256": "a79aa09ac56aad93a74ef88edd9ec96ed03932f4d43fd25399c28288257af18f",
+      "descriptorBase64": "ChVnaXRjaGF0L3YxL2NoYXQucHJvdG8SCmdpdGNoYXQudjEiPgoNU2VhcmNoUmVxdWVzdBINCgVxdWVyeRgBIAEoCRIPCgdyZXBvX2lkGAIgASgJEg0KBWxpbWl0GAMgASgFIjUKDlNlYXJjaFJlc3BvbnNlEiMKBGhpdHMYASADKAsyFS5naXRjaGF0LnYxLlNlYXJjaEhpdCJECglTZWFyY2hIaXQSDgoGc291cmNlGAEgASgJEgoKAmlkGAIgASgJEg0KBXRpdGxlGAMgASgJEgwKBGJvZHkYBCABKAkiiAEKC0NoYXRTZXNzaW9uEgoKAmlkGAEgASgJEg8KB3JlcG9faWQYAiABKAkSDQoFdGl0bGUYAyABKAkSEgoKY3JlYXRlZF9hdBgEIAEoAxISCgp1cGRhdGVkX2F0GAUgASgDEhUKDW1lc3NhZ2VfY291bnQYBiABKAUSDgoGcGlubmVkGAcgASgIIpICCgtDaGF0TWVzc2FnZRIKCgJpZBgBIAEoCRISCgpzZXNzaW9uX2lkGAIgASgJEiUKBHJvbGUYAyABKA4yFy5naXRjaGF0LnYxLk1lc3NhZ2VSb2xlEg8KB2NvbnRlbnQYBCABKAkSDQoFbW9kZWwYBSABKAkSFgoOdG9rZW5fY291bnRfaW4YBiABKAUSFwoPdG9rZW5fY291bnRfb3V0GAcgASgFEhIKCmNyZWF0ZWRfYXQYCCABKAMSKwoLYXR0YWNobWVudHMYCSADKAsyFi5naXRjaGF0LnYxLkF0dGFjaG1lbnQSKgoLdG9vbF9ldmVudHMYCiADKAsyFS5naXRjaGF0LnYxLlRvb2xFdmVudCJ9CglUb29sRXZlbnQSFAoMdG9vbF9jYWxsX2lkGAEgASgJEgwKBG5hbWUYAiABKAkSEQoJYXJnc19qc29uGAMgASgJEhYKDnJlc3VsdF9jb250ZW50GAQgASgJEhAKCGlzX2Vycm9yGAUgASgIEg8KB29yZGluYWwYBiABKAUiWQoKQXR0YWNobWVudBIKCgJpZBgBIAEoCRIRCgltaW1lX3R5cGUYAiABKAkSEAoIZmlsZW5hbWUYAyABKAkSDAoEc2l6ZRgEIAEoAxIMCgRkYXRhGAUgASgMIiYKE0xpc3RTZXNzaW9uc1JlcXVlc3QSDwoHcmVwb19pZBgBIAEoCSJBChRMaXN0U2Vzc2lvbnNSZXNwb25zZRIpCghzZXNzaW9ucxgBIAMoCzIXLmdpdGNoYXQudjEuQ2hhdFNlc3Npb24iJwoRR2V0U2Vzc2lvblJlcXVlc3QSEgoKc2Vzc2lvbl9pZBgBIAEoCSJpChJHZXRTZXNzaW9uUmVzcG9uc2USKAoHc2Vzc2lvbhgBIAEoCzIXLmdpdGNoYXQudjEuQ2hhdFNlc3Npb24SKQoIbWVzc2FnZXMYAiADKAsyFy5naXRjaGF0LnYxLkNoYXRNZXNzYWdlIpUBChJTZW5kTWVzc2FnZVJlcXVlc3QSEgoKc2Vzc2lvbl9pZBgBIAEoCRIPCgdyZXBvX2lkGAIgASgJEgwKBHRleHQYAyABKAkSHwoXcmVwbGFjZV9mcm9tX21lc3NhZ2VfaWQYBCABKAkSKwoLYXR0YWNobWVudHMYBSADKAsyFi5naXRjaGF0LnYxLkF0dGFjaG1lbnQikQIKDE1lc3NhZ2VDaHVuaxIPCgV0b2tlbhgBIAEoCUgAEiAKBGRvbmUYAiABKAsyEC5naXRjaGF0LnYxLkRvbmVIABIwCghjYXJkX2hpdBgDIAEoCzIcLmdpdGNoYXQudjEuS25vd2xlZGdlQ2FyZEhpdEgAEiYKB3N0YXJ0ZWQYBCABKAsyEy5naXRjaGF0LnYxLlN0YXJ0ZWRIABIpCgl0b29sX2NhbGwYBSABKAsyFC5naXRjaGF0LnYxLlRvb2xDYWxsSAASLQoLdG9vbF9yZXN1bHQYBiABKAsyFi5naXRjaGF0LnYxLlRvb2xSZXN1bHRIABISCgh0aGlua2luZxgHIAEoCUgAQgYKBGtpbmQiNwoIVG9vbENhbGwSCgoCaWQYASABKAkSDAoEbmFtZRgCIAEoCRIRCglhcmdzX2pzb24YAyABKAkiOwoKVG9vbFJlc3VsdBIKCgJpZBgBIAEoCRIPCgdjb250ZW50GAIgASgJEhAKCGlzX2Vycm9yGAMgASgIIkgKB1N0YXJ0ZWQSFwoPdXNlcl9tZXNzYWdlX2lkGAEgASgJEhIKCnNlc3Npb25faWQYAiABKAkSEAoId2FybmluZ3MYAyADKAkicAoQS25vd2xlZGdlQ2FyZEhpdBIPCgdjYXJkX2lkGAEgASgJEhEKCWFuc3dlcl9tZBgCIAEoCRINCgVtb2RlbBgDIAEoCRIRCgloaXRfY291bnQYBCABKAUSFgoOY3JlYXRlZF9jb21taXQYBSABKAkioAEKBERvbmUSEgoKc2Vzc2lvbl9pZBgBIAEoCRIXCg91c2VyX21lc3NhZ2VfaWQYAiABKAkSHAoUYXNzaXN0YW50X21lc3NhZ2VfaWQYAyABKAkSFgoOdG9rZW5fY291bnRfaW4YBCABKAUSFwoPdG9rZW5fY291bnRfb3V0GAUgASgFEg0KBW1vZGVsGAYgASgJEg0KBWVycm9yGAcgASgJIjkKFFJlbmFtZVNlc3Npb25SZXF1ZXN0EhIKCnNlc3Npb25faWQYASABKAkSDQoFdGl0bGUYAiABKAkiFwoVUmVuYW1lU2Vzc2lvblJlc3BvbnNlIioKFERlbGV0ZVNlc3Npb25SZXF1ZXN0EhIKCnNlc3Npb25faWQYASABKAkiFwoVRGVsZXRlU2Vzc2lvblJlc3BvbnNlIjcKEVBpblNlc3Npb25SZXF1ZXN0EhIKCnNlc3Npb25faWQYASABKAkSDgoGcGlubmVkGAIgASgIIhQKElBpblNlc3Npb25SZXNwb25zZSIjChBMaXN0Q2FyZHNSZXF1ZXN0Eg8KB3JlcG9faWQYASABKAkinQEKBktCQ2FyZBIKCgJpZBgBIAEoCRIQCghxdWVzdGlvbhgCIAEoCRIWCg5hbnN3ZXJfcHJldmlldxgDIAEoCRINCgVtb2RlbBgEIAEoCRISCgpjcmVhdGVkX2J5GAUgASgJEhEKCWhpdF9jb3VudBgGIAEoBRISCgpjcmVhdGVkX2F0GAcgASgDEhMKC2ludmFsaWRhdGVkGAggASgIIjYKEUxpc3RDYXJkc1Jlc3BvbnNlEiEKBWNhcmRzGAEgAygLMhIuZ2l0Y2hhdC52MS5LQkNhcmQiJAoRRGVsZXRlQ2FyZFJlcXVlc3QSDwoHY2FyZF9pZBgBIAEoCSIUChJEZWxldGVDYXJkUmVzcG9uc2UiIQoOR2V0Q2FyZFJlcXVlc3QSDwoHY2FyZF9pZBgBIAEoCSIwCg5DYXJkUHJvdmVuYW5jZRIMCgRwYXRoGAEgASgJEhAKCGJsb2Jfc2hhGAIgASgJIukBCg9HZXRDYXJkUmVzcG9uc2USCgoCaWQYASABKAkSEAoIcXVlc3Rpb24YAiABKAkSEQoJYW5zd2VyX21kGAMgASgJEg0KBW1vZGVsGAQgASgJEhIKCmNyZWF0ZWRfYnkYBSABKAkSEQoJaGl0X2NvdW50GAYgASgFEhIKCmNyZWF0ZWRfYXQYByABKAMSEwoLaW52YWxpZGF0ZWQYCCABKAgSFgoOY3JlYXRlZF9jb21taXQYCSABKAkSLgoKcHJvdmVuYW5jZRgKIAMoCzIaLmdpdGNoYXQudjEuQ2FyZFByb3ZlbmFuY2UiKwoYU3VtbWFyaXplQWN0aXZpdHlSZXF1ZXN0Eg8KB3JlcG9faWQYASABKAkiQQoZU3VtbWFyaXplQWN0aXZpdHlSZXNwb25zZRIPCgdzdW1tYXJ5GAEgASgJEhMKC3N1Z2dlc3Rpb25zGAIgAygJKncKC01lc3NhZ2VSb2xlEhwKGE1FU1NBR0VfUk9MRV9VTlNQRUNJRklFRBAAEhUKEU1FU1NBR0VfUk9MRV9VU0VSEAESGgoWTUVTU0FHRV9ST0xFX0FTU0lTVEFOVBACEhcKE01FU1NBR0VfUk9MRV9TWVNURU0QAzLvBgoLQ2hhdFNlcnZpY2USUQoMTGlzdFNlc3Npb25zEh8uZ2l0Y2hhdC52MS5MaXN0U2Vzc2lvbnNSZXF1ZXN0GiAuZ2l0Y2hhdC52MS5MaXN0U2Vzc2lvbnNSZXNwb25zZRJLCgpHZXRTZXNzaW9uEh0uZ2l0Y2hhdC52MS5HZXRTZXNzaW9uUmVxdWVzdBoeLmdpdGNoYXQudjEuR2V0U2Vzc2lvblJlc3BvbnNlEkkKC1NlbmRNZXNzYWdlEh4uZ2l0Y2hhdC52MS5TZW5kTWVzc2FnZVJlcXVlc3QaGC5naXRjaGF0LnYxLk1lc3NhZ2VDaHVuazABEj8KBlNlYXJjaBIZLmdpdGNoYXQudjEuU2VhcmNoUmVxdWVzdBoaLmdpdGNoYXQudjEuU2VhcmNoUmVzcG9uc2USVAoNUmVuYW1lU2Vzc2lvbhIgLmdpdGNoYXQudjEuUmVuYW1lU2Vzc2lvblJlcXVlc3QaIS5naXRjaGF0LnYxLlJlbmFtZVNlc3Npb25SZXNwb25zZRJUCg1EZWxldGVTZXNzaW9uEiAuZ2l0Y2hhdC52MS5EZWxldGVTZXNzaW9uUmVxdWVzdBohLmdpdGNoYXQudjEuRGVsZXRlU2Vzc2lvblJlc3BvbnNlEksKClBpblNlc3Npb24SHS5naXRjaGF0LnYxLlBpblNlc3Npb25SZXF1ZXN0Gh4uZ2l0Y2hhdC52MS5QaW5TZXNzaW9uUmVzcG9uc2USSAoJTGlzdENhcmRzEhwuZ2l0Y2hhdC52MS5MaXN0Q2FyZHNSZXF1ZXN0Gh0uZ2l0Y2hhdC52MS5MaXN0Q2FyZHNSZXNwb25zZRJLCgpEZWxldGVDYXJkEh0uZ2l0Y2hhdC52MS5EZWxldGVDYXJkUmVxdWVzdBoeLmdpdGNoYXQudjEuRGVsZXRlQ2FyZFJlc3BvbnNlEkIKB0dldENhcmQSGi5naXRjaGF0LnYxLkdldENhcmRSZXF1ZXN0GhsuZ2l0Y2hhdC52MS5HZXRDYXJkUmVzcG9uc2USYAoRU3VtbWFyaXplQWN0aXZpdHkSJC5naXRjaGF0LnYxLlN1bW1hcml6ZUFjdGl2aXR5UmVxdWVzdBolLmdpdGNoYXQudjEuU3VtbWFyaXplQWN0aXZpdHlSZXNwb25zZUKdAQoOY29tLmdpdGNoYXQudjFCCUNoYXRQcm90b1ABWjdnaXRodWIuY29tL3BkZXJzMDEvZ2l0LWNoYXQvZ2VuL2dvL2dpdGNoYXQvdjE7Z2l0Y2hhdHYxogIDR1hYqgIKR2l0Y2hhdC5WMcoCCkdpdGNoYXRcVjHiAhZHaXRjaGF0XFYxXEdQQk1ldGFkYXRh6gILR2l0Y2hhdDo6VjFiBnByb3RvMw",
+      "exports": [
+        {
+          "kind": "const",
+          "name": "file_gitchat_v1_chat"
+        },
+        {
+          "kind": "type",
+          "name": "SearchRequest"
+        },
+        {
+          "kind": "const",
+          "name": "SearchRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "SearchResponse"
+        },
+        {
+          "kind": "const",
+          "name": "SearchResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "SearchHit"
+        },
+        {
+          "kind": "const",
+          "name": "SearchHitSchema"
+        },
+        {
+          "kind": "type",
+          "name": "ChatSession"
+        },
+        {
+          "kind": "const",
+          "name": "ChatSessionSchema"
+        },
+        {
+          "kind": "type",
+          "name": "ChatMessage"
+        },
+        {
+          "kind": "const",
+          "name": "ChatMessageSchema"
+        },
+        {
+          "kind": "type",
+          "name": "ToolEvent"
+        },
+        {
+          "kind": "const",
+          "name": "ToolEventSchema"
+        },
+        {
+          "kind": "type",
+          "name": "Attachment"
+        },
+        {
+          "kind": "const",
+          "name": "AttachmentSchema"
+        },
+        {
+          "kind": "type",
+          "name": "ListSessionsRequest"
+        },
+        {
+          "kind": "const",
+          "name": "ListSessionsRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "ListSessionsResponse"
+        },
+        {
+          "kind": "const",
+          "name": "ListSessionsResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "GetSessionRequest"
+        },
+        {
+          "kind": "const",
+          "name": "GetSessionRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "GetSessionResponse"
+        },
+        {
+          "kind": "const",
+          "name": "GetSessionResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "SendMessageRequest"
+        },
+        {
+          "kind": "const",
+          "name": "SendMessageRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "MessageChunk"
+        },
+        {
+          "kind": "const",
+          "name": "MessageChunkSchema"
+        },
+        {
+          "kind": "type",
+          "name": "ToolCall"
+        },
+        {
+          "kind": "const",
+          "name": "ToolCallSchema"
+        },
+        {
+          "kind": "type",
+          "name": "ToolResult"
+        },
+        {
+          "kind": "const",
+          "name": "ToolResultSchema"
+        },
+        {
+          "kind": "type",
+          "name": "Started"
+        },
+        {
+          "kind": "const",
+          "name": "StartedSchema"
+        },
+        {
+          "kind": "type",
+          "name": "KnowledgeCardHit"
+        },
+        {
+          "kind": "const",
+          "name": "KnowledgeCardHitSchema"
+        },
+        {
+          "kind": "type",
+          "name": "Done"
+        },
+        {
+          "kind": "const",
+          "name": "DoneSchema"
+        },
+        {
+          "kind": "type",
+          "name": "RenameSessionRequest"
+        },
+        {
+          "kind": "const",
+          "name": "RenameSessionRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "RenameSessionResponse"
+        },
+        {
+          "kind": "const",
+          "name": "RenameSessionResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "DeleteSessionRequest"
+        },
+        {
+          "kind": "const",
+          "name": "DeleteSessionRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "DeleteSessionResponse"
+        },
+        {
+          "kind": "const",
+          "name": "DeleteSessionResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "PinSessionRequest"
+        },
+        {
+          "kind": "const",
+          "name": "PinSessionRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "PinSessionResponse"
+        },
+        {
+          "kind": "const",
+          "name": "PinSessionResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "ListCardsRequest"
+        },
+        {
+          "kind": "const",
+          "name": "ListCardsRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "KBCard"
+        },
+        {
+          "kind": "const",
+          "name": "KBCardSchema"
+        },
+        {
+          "kind": "type",
+          "name": "ListCardsResponse"
+        },
+        {
+          "kind": "const",
+          "name": "ListCardsResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "DeleteCardRequest"
+        },
+        {
+          "kind": "const",
+          "name": "DeleteCardRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "DeleteCardResponse"
+        },
+        {
+          "kind": "const",
+          "name": "DeleteCardResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "GetCardRequest"
+        },
+        {
+          "kind": "const",
+          "name": "GetCardRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "CardProvenance"
+        },
+        {
+          "kind": "const",
+          "name": "CardProvenanceSchema"
+        },
+        {
+          "kind": "type",
+          "name": "GetCardResponse"
+        },
+        {
+          "kind": "const",
+          "name": "GetCardResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "SummarizeActivityRequest"
+        },
+        {
+          "kind": "const",
+          "name": "SummarizeActivityRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "SummarizeActivityResponse"
+        },
+        {
+          "kind": "const",
+          "name": "SummarizeActivityResponseSchema"
+        },
+        {
+          "kind": "enum",
+          "name": "MessageRole"
+        },
+        {
+          "kind": "const",
+          "name": "MessageRoleSchema"
+        },
+        {
+          "kind": "const",
+          "name": "ChatService"
+        }
+      ]
+    },
+    "repo": {
+      "sourceSha256": "0fde653901713439c2ff7e14ed07f4a96aa6d6d80d1de68b50df63ed5d512551",
+      "observedProtoSha256": "237508fbb2de7fac15c5544bce79906173330e2a3a1093621fb49892a923c7ec",
+      "descriptorBase64": "ChVnaXRjaGF0L3YxL3JlcG8ucHJvdG8SCmdpdGNoYXQudjEiTgoEUmVwbxIKCgJpZBgBIAEoCRINCgVsYWJlbBgCIAEoCRIWCg5kZWZhdWx0X2JyYW5jaBgDIAEoCRITCgtoZWFkX2NvbW1pdBgEIAEoCSISChBMaXN0UmVwb3NSZXF1ZXN0IjQKEUxpc3RSZXBvc1Jlc3BvbnNlEh8KBXJlcG9zGAEgAygLMhAuZ2l0Y2hhdC52MS5SZXBvIiYKE0xpc3RCcmFuY2hlc1JlcXVlc3QSDwoHcmVwb19pZBgBIAEoCSJeChRMaXN0QnJhbmNoZXNSZXNwb25zZRIkCghicmFuY2hlcxgBIAMoCzISLmdpdGNoYXQudjEuQnJhbmNoEiAKBHRhZ3MYAiADKAsyEi5naXRjaGF0LnYxLkJyYW5jaCJPCgZCcmFuY2gSDAoEbmFtZRgBIAEoCRIOCgZjb21taXQYAiABKAkSFgoOY29tbWl0dGVyX3RpbWUYAyABKAMSDwoHc3ViamVjdBgEIAEoCSI9Cg9MaXN0VHJlZVJlcXVlc3QSDwoHcmVwb19pZBgBIAEoCRILCgNyZWYYAiABKAkSDAoEcGF0aBgDIAEoCSJQChBMaXN0VHJlZVJlc3BvbnNlEiYKB2VudHJpZXMYASADKAsyFS5naXRjaGF0LnYxLlRyZWVFbnRyeRIUCgxyZWZfcmVzb2x2ZWQYAiABKAkiXgoJVHJlZUVudHJ5EgwKBG5hbWUYASABKAkSIwoEdHlwZRgCIAEoDjIVLmdpdGNoYXQudjEuRW50cnlUeXBlEgwKBHNpemUYAyABKAMSEAoIYmxvYl9zaGEYBCABKAkiTwoOR2V0RmlsZVJlcXVlc3QSDwoHcmVwb19pZBgBIAEoCRILCgNyZWYYAiABKAkSDAoEcGF0aBgDIAEoCRIRCgltYXhfYnl0ZXMYBCABKAMiegoPR2V0RmlsZVJlc3BvbnNlEg8KB2NvbnRlbnQYASABKAwSDAoEc2l6ZRgCIAEoAxIRCgl0cnVuY2F0ZWQYAyABKAgSEQoJaXNfYmluYXJ5GAQgASgIEhAKCGJsb2Jfc2hhGAUgASgJEhAKCGxhbmd1YWdlGAYgASgJIl8KEkxpc3RDb21taXRzUmVxdWVzdBIPCgdyZXBvX2lkGAEgASgJEgsKA3JlZhgCIAEoCRINCgVsaW1pdBgDIAEoBRIOCgZvZmZzZXQYBCABKAUSDAoEcGF0aBgFIAEoCSJRChNMaXN0Q29tbWl0c1Jlc3BvbnNlEigKB2NvbW1pdHMYASADKAsyFy5naXRjaGF0LnYxLkNvbW1pdEVudHJ5EhAKCGhhc19tb3JlGAIgASgIIt4BCgtDb21taXRFbnRyeRILCgNzaGEYASABKAkSEQoJc2hvcnRfc2hhGAIgASgJEg8KB21lc3NhZ2UYAyABKAkSEwoLYXV0aG9yX25hbWUYBCABKAkSFAoMYXV0aG9yX2VtYWlsGAUgASgJEhMKC2F1dGhvcl90aW1lGAYgASgDEhUKDWZpbGVzX2NoYW5nZWQYByABKAUSEQoJYWRkaXRpb25zGAggASgFEhEKCWRlbGV0aW9ucxgJIAEoBRIMCgRib2R5GAogASgJEhMKC3BhcmVudF9zaGFzGAsgAygJIj0KD0dldEJsYW1lUmVxdWVzdBIPCgdyZXBvX2lkGAEgASgJEgsKA3JlZhgCIAEoCRIMCgRwYXRoGAMgASgJIjgKEEdldEJsYW1lUmVzcG9uc2USJAoFbGluZXMYASADKAsyFS5naXRjaGF0LnYxLkJsYW1lTGluZSJ+CglCbGFtZUxpbmUSDAoEdGV4dBgBIAEoCRITCgthdXRob3JfbmFtZRgCIAEoCRIUCgxhdXRob3JfZW1haWwYAyABKAkSDAoEZGF0ZRgEIAEoAxISCgpjb21taXRfc2hhGAUgASgJEhYKDmNvbW1pdF9tZXNzYWdlGAYgASgJImUKFkNvbXBhcmVCcmFuY2hlc1JlcXVlc3QSDwoHcmVwb19pZBgBIAEoCRIQCghiYXNlX3JlZhgCIAEoCRIQCghoZWFkX3JlZhgDIAEoCRIWCg5kZXRlY3RfcmVuYW1lcxgEIAEoCCJzChdDb21wYXJlQnJhbmNoZXNSZXNwb25zZRImCgVmaWxlcxgBIAMoCzIXLmdpdGNoYXQudjEuQ2hhbmdlZEZpbGUSFwoPdG90YWxfYWRkaXRpb25zGAIgASgFEhcKD3RvdGFsX2RlbGV0aW9ucxgDIAEoBSJkCgtDaGFuZ2VkRmlsZRIMCgRwYXRoGAEgASgJEg4KBnN0YXR1cxgCIAEoCRIRCglhZGRpdGlvbnMYAyABKAUSEQoJZGVsZXRpb25zGAQgASgFEhEKCWZyb21fcGF0aBgFIAEoCSKkAQoOR2V0RGlmZlJlcXVlc3QSDwoHcmVwb19pZBgBIAEoCRIQCghmcm9tX3JlZhgCIAEoCRIOCgZ0b19yZWYYAyABKAkSDAoEcGF0aBgEIAEoCRIWCg5kZXRlY3RfcmVuYW1lcxgFIAEoCBIRCglmcm9tX3BhdGgYBiABKAkSEgoKZnVsbF9yYW5nZRgHIAEoCBISCgpmaWxlc19vbmx5GAggASgIIoYBCg9HZXREaWZmUmVzcG9uc2USFAoMdW5pZmllZF9kaWZmGAEgASgJEhMKC2Zyb21fY29tbWl0GAIgASgJEhEKCXRvX2NvbW1pdBgDIAEoCRINCgVlbXB0eRgEIAEoCBImCgVmaWxlcxgFIAMoCzIXLmdpdGNoYXQudjEuQ2hhbmdlZEZpbGUiIwoQR2V0U3RhdHVzUmVxdWVzdBIPCgdyZXBvX2lkGAEgASgJIpABChFHZXRTdGF0dXNSZXNwb25zZRImCgZzdGFnZWQYASADKAsyFi5naXRjaGF0LnYxLlN0YXR1c0ZpbGUSKAoIdW5zdGFnZWQYAiADKAsyFi5naXRjaGF0LnYxLlN0YXR1c0ZpbGUSKQoJdW50cmFja2VkGAMgAygLMhYuZ2l0Y2hhdC52MS5TdGF0dXNGaWxlIioKClN0YXR1c0ZpbGUSDAoEcGF0aBgBIAEoCRIOCgZzdGF0dXMYAiABKAkiOgoZR2V0V29ya2luZ1RyZWVEaWZmUmVxdWVzdBIPCgdyZXBvX2lkGAEgASgJEgwKBHBhdGgYAiABKAkiQQoaR2V0V29ya2luZ1RyZWVEaWZmUmVzcG9uc2USFAoMdW5pZmllZF9kaWZmGAEgASgJEg0KBWVtcHR5GAIgASgIIhIKEEdldENvbmZpZ1JlcXVlc3QidAoLQ29uZmlnRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJEhUKDWRlZmF1bHRfdmFsdWUYAyABKAkSEwoLZGVzY3JpcHRpb24YBCABKAkSDQoFZ3JvdXAYBSABKAkSDgoGc2VjcmV0GAYgASgIIj0KEUdldENvbmZpZ1Jlc3BvbnNlEigKB2VudHJpZXMYASADKAsyFy5naXRjaGF0LnYxLkNvbmZpZ0VudHJ5IjEKE1VwZGF0ZUNvbmZpZ1JlcXVlc3QSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJIhYKFFVwZGF0ZUNvbmZpZ1Jlc3BvbnNlIn0KFkdldEZpbGVDaHVybk1hcFJlcXVlc3QSDwoHcmVwb19pZBgBIAEoCRILCgNyZWYYAiABKAkSFwoPc2luY2VfdGltZXN0YW1wGAMgASgDEhcKD3VudGlsX3RpbWVzdGFtcBgEIAEoAxITCgttYXhfY29tbWl0cxgFIAEoBSKaAQoJRmlsZUNodXJuEgwKBHBhdGgYASABKAkSFAoMY29tbWl0X2NvdW50GAIgASgFEhcKD3RvdGFsX2FkZGl0aW9ucxgDIAEoAxIXCg90b3RhbF9kZWxldGlvbnMYBCABKAMSFQoNbGFzdF9tb2RpZmllZBgFIAEoAxIMCgRzaXplGAYgASgDEhIKCnRvcF9hdXRob3IYByABKAki7AEKF0dldEZpbGVDaHVybk1hcFJlc3BvbnNlEiQKBWZpbGVzGAEgAygLMhUuZ2l0Y2hhdC52MS5GaWxlQ2h1cm4SHgoWZmlyc3RfY29tbWl0X3RpbWVzdGFtcBgCIAEoAxIdChVsYXN0X2NvbW1pdF90aW1lc3RhbXAYAyABKAMSFwoPY29tbWl0c19zY2FubmVkGAQgASgFEhMKC2NhcF9yZWFjaGVkGAUgASgIEhsKE21heF9jb21taXRzX3NjYW5uZWQYBiABKAUSIQoZZWZmZWN0aXZlX3NpbmNlX3RpbWVzdGFtcBgHIAEoAyIbChlHZXRQcm92aWRlckNhdGFsb2dSZXF1ZXN0Ih8KHVJlZnJlc2hQcm92aWRlckNhdGFsb2dSZXF1ZXN0IvUBCgxDYXRhbG9nTW9kZWwSCgoCaWQYASABKAkSDAoEbmFtZRgCIAEoCRIWCg5jb250ZXh0X3dpbmRvdxgDIAEoAxIWCg5jb3N0X3Blcl8xbV9pbhgEIAEoARIXCg9jb3N0X3Blcl8xbV9vdXQYBSABKAESEgoKY2FuX3JlYXNvbhgGIAEoCBIXCg9zdXBwb3J0c19pbWFnZXMYByABKAgSGgoSZGVmYXVsdF9tYXhfdG9rZW5zGAggASgDEg8KB3NvdXJjZXMYCSADKAkSKAoGcXVvdGVzGAogAygLMhguZ2l0Y2hhdC52MS5QcmljaW5nUXVvdGUiTwoMUHJpY2luZ1F1b3RlEg4KBnNvdXJjZRgBIAEoCRIWCg5jb3N0X3Blcl8xbV9pbhgCIAEoARIXCg9jb3N0X3Blcl8xbV9vdXQYAyABKAEilwEKD0NhdGFsb2dQcm92aWRlchIKCgJpZBgBIAEoCRIMCgRuYW1lGAIgASgJEgwKBHR5cGUYAyABKAkSGAoQZGVmYXVsdF9iYXNlX3VybBgEIAEoCRIYChBkZWZhdWx0X21vZGVsX2lkGAUgASgJEigKBm1vZGVscxgGIAMoCzIYLmdpdGNoYXQudjEuQ2F0YWxvZ01vZGVsIkwKGkdldFByb3ZpZGVyQ2F0YWxvZ1Jlc3BvbnNlEi4KCXByb3ZpZGVycxgBIAMoCzIbLmdpdGNoYXQudjEuQ2F0YWxvZ1Byb3ZpZGVyIqkBCgpMTE1Qcm9maWxlEgoKAmlkGAEgASgJEgwKBG5hbWUYAiABKAkSDwoHYmFja2VuZBgDIAEoCRIQCghiYXNlX3VybBgEIAEoCRINCgVtb2RlbBgFIAEoCRIPCgdhcGlfa2V5GAYgASgJEhMKC3RlbXBlcmF0dXJlGAcgASgJEhIKCm1heF90b2tlbnMYCCABKAkSFQoNc3lzdGVtX3Byb21wdBgJIAEoCSIVChNMaXN0UHJvZmlsZXNSZXF1ZXN0IlsKFExpc3RQcm9maWxlc1Jlc3BvbnNlEigKCHByb2ZpbGVzGAEgAygLMhYuZ2l0Y2hhdC52MS5MTE1Qcm9maWxlEhkKEWFjdGl2ZV9wcm9maWxlX2lkGAIgASgJIj0KElNhdmVQcm9maWxlUmVxdWVzdBInCgdwcm9maWxlGAEgASgLMhYuZ2l0Y2hhdC52MS5MTE1Qcm9maWxlIiEKE1NhdmVQcm9maWxlUmVzcG9uc2USCgoCaWQYASABKAkiIgoURGVsZXRlUHJvZmlsZVJlcXVlc3QSCgoCaWQYASABKAkiFwoVRGVsZXRlUHJvZmlsZVJlc3BvbnNlIiQKFkFjdGl2YXRlUHJvZmlsZVJlcXVlc3QSCgoCaWQYASABKAkiGQoXQWN0aXZhdGVQcm9maWxlUmVzcG9uc2UiHwodRGlzY292ZXJMb2NhbEVuZHBvaW50c1JlcXVlc3QiOgoNTG9jYWxFbmRwb2ludBILCgN1cmwYASABKAkSDAoEbmFtZRgCIAEoCRIOCgZtb2RlbHMYAyADKAkiTgoeRGlzY292ZXJMb2NhbEVuZHBvaW50c1Jlc3BvbnNlEiwKCWVuZHBvaW50cxgBIAMoCzIZLmdpdGNoYXQudjEuTG9jYWxFbmRwb2ludCI6ChVEaXNjb3Zlck1vZGVsc1JlcXVlc3QSEAoIYmFzZV91cmwYASABKAkSDwoHYXBpX2tleRgCIAEoCSJRChZEaXNjb3Zlck1vZGVsc1Jlc3BvbnNlEhEKCW1vZGVsX2lkcxgBIAMoCRIVCg1wcm92aWRlcl9uYW1lGAIgASgJEg0KBWVycm9yGAMgASgJKoIBCglFbnRyeVR5cGUSGgoWRU5UUllfVFlQRV9VTlNQRUNJRklFRBAAEhMKD0VOVFJZX1RZUEVfRklMRRABEhIKDkVOVFJZX1RZUEVfRElSEAISFgoSRU5UUllfVFlQRV9TWU1MSU5LEAMSGAoURU5UUllfVFlQRV9TVUJNT0RVTEUQBDKFDgoLUmVwb1NlcnZpY2USSAoJTGlzdFJlcG9zEhwuZ2l0Y2hhdC52MS5MaXN0UmVwb3NSZXF1ZXN0Gh0uZ2l0Y2hhdC52MS5MaXN0UmVwb3NSZXNwb25zZRJRCgxMaXN0QnJhbmNoZXMSHy5naXRjaGF0LnYxLkxpc3RCcmFuY2hlc1JlcXVlc3QaIC5naXRjaGF0LnYxLkxpc3RCcmFuY2hlc1Jlc3BvbnNlEkUKCExpc3RUcmVlEhsuZ2l0Y2hhdC52MS5MaXN0VHJlZVJlcXVlc3QaHC5naXRjaGF0LnYxLkxpc3RUcmVlUmVzcG9uc2USQgoHR2V0RmlsZRIaLmdpdGNoYXQudjEuR2V0RmlsZVJlcXVlc3QaGy5naXRjaGF0LnYxLkdldEZpbGVSZXNwb25zZRJOCgtMaXN0Q29tbWl0cxIeLmdpdGNoYXQudjEuTGlzdENvbW1pdHNSZXF1ZXN0Gh8uZ2l0Y2hhdC52MS5MaXN0Q29tbWl0c1Jlc3BvbnNlEkUKCEdldEJsYW1lEhsuZ2l0Y2hhdC52MS5HZXRCbGFtZVJlcXVlc3QaHC5naXRjaGF0LnYxLkdldEJsYW1lUmVzcG9uc2USWgoPQ29tcGFyZUJyYW5jaGVzEiIuZ2l0Y2hhdC52MS5Db21wYXJlQnJhbmNoZXNSZXF1ZXN0GiMuZ2l0Y2hhdC52MS5Db21wYXJlQnJhbmNoZXNSZXNwb25zZRJCCgdHZXREaWZmEhouZ2l0Y2hhdC52MS5HZXREaWZmUmVxdWVzdBobLmdpdGNoYXQudjEuR2V0RGlmZlJlc3BvbnNlEkgKCUdldFN0YXR1cxIcLmdpdGNoYXQudjEuR2V0U3RhdHVzUmVxdWVzdBodLmdpdGNoYXQudjEuR2V0U3RhdHVzUmVzcG9uc2USYwoSR2V0V29ya2luZ1RyZWVEaWZmEiUuZ2l0Y2hhdC52MS5HZXRXb3JraW5nVHJlZURpZmZSZXF1ZXN0GiYuZ2l0Y2hhdC52MS5HZXRXb3JraW5nVHJlZURpZmZSZXNwb25zZRJaCg9HZXRGaWxlQ2h1cm5NYXASIi5naXRjaGF0LnYxLkdldEZpbGVDaHVybk1hcFJlcXVlc3QaIy5naXRjaGF0LnYxLkdldEZpbGVDaHVybk1hcFJlc3BvbnNlEkgKCUdldENvbmZpZxIcLmdpdGNoYXQudjEuR2V0Q29uZmlnUmVxdWVzdBodLmdpdGNoYXQudjEuR2V0Q29uZmlnUmVzcG9uc2USUQoMVXBkYXRlQ29uZmlnEh8uZ2l0Y2hhdC52MS5VcGRhdGVDb25maWdSZXF1ZXN0GiAuZ2l0Y2hhdC52MS5VcGRhdGVDb25maWdSZXNwb25zZRJjChJHZXRQcm92aWRlckNhdGFsb2cSJS5naXRjaGF0LnYxLkdldFByb3ZpZGVyQ2F0YWxvZ1JlcXVlc3QaJi5naXRjaGF0LnYxLkdldFByb3ZpZGVyQ2F0YWxvZ1Jlc3BvbnNlEmsKFlJlZnJlc2hQcm92aWRlckNhdGFsb2cSKS5naXRjaGF0LnYxLlJlZnJlc2hQcm92aWRlckNhdGFsb2dSZXF1ZXN0GiYuZ2l0Y2hhdC52MS5HZXRQcm92aWRlckNhdGFsb2dSZXNwb25zZRJvChZEaXNjb3ZlckxvY2FsRW5kcG9pbnRzEikuZ2l0Y2hhdC52MS5EaXNjb3ZlckxvY2FsRW5kcG9pbnRzUmVxdWVzdBoqLmdpdGNoYXQudjEuRGlzY292ZXJMb2NhbEVuZHBvaW50c1Jlc3BvbnNlElcKDkRpc2NvdmVyTW9kZWxzEiEuZ2l0Y2hhdC52MS5EaXNjb3Zlck1vZGVsc1JlcXVlc3QaIi5naXRjaGF0LnYxLkRpc2NvdmVyTW9kZWxzUmVzcG9uc2USUQoMTGlzdFByb2ZpbGVzEh8uZ2l0Y2hhdC52MS5MaXN0UHJvZmlsZXNSZXF1ZXN0GiAuZ2l0Y2hhdC52MS5MaXN0UHJvZmlsZXNSZXNwb25zZRJOCgtTYXZlUHJvZmlsZRIeLmdpdGNoYXQudjEuU2F2ZVByb2ZpbGVSZXF1ZXN0Gh8uZ2l0Y2hhdC52MS5TYXZlUHJvZmlsZVJlc3BvbnNlElQKDURlbGV0ZVByb2ZpbGUSIC5naXRjaGF0LnYxLkRlbGV0ZVByb2ZpbGVSZXF1ZXN0GiEuZ2l0Y2hhdC52MS5EZWxldGVQcm9maWxlUmVzcG9uc2USWgoPQWN0aXZhdGVQcm9maWxlEiIuZ2l0Y2hhdC52MS5BY3RpdmF0ZVByb2ZpbGVSZXF1ZXN0GiMuZ2l0Y2hhdC52MS5BY3RpdmF0ZVByb2ZpbGVSZXNwb25zZUKdAQoOY29tLmdpdGNoYXQudjFCCVJlcG9Qcm90b1ABWjdnaXRodWIuY29tL3BkZXJzMDEvZ2l0LWNoYXQvZ2VuL2dvL2dpdGNoYXQvdjE7Z2l0Y2hhdHYxogIDR1hYqgIKR2l0Y2hhdC5WMcoCCkdpdGNoYXRcVjHiAhZHaXRjaGF0XFYxXEdQQk1ldGFkYXRh6gILR2l0Y2hhdDo6VjFiBnByb3RvMw",
+      "exports": [
+        {
+          "kind": "const",
+          "name": "file_gitchat_v1_repo"
+        },
+        {
+          "kind": "type",
+          "name": "Repo"
+        },
+        {
+          "kind": "const",
+          "name": "RepoSchema"
+        },
+        {
+          "kind": "type",
+          "name": "ListReposRequest"
+        },
+        {
+          "kind": "const",
+          "name": "ListReposRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "ListReposResponse"
+        },
+        {
+          "kind": "const",
+          "name": "ListReposResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "ListBranchesRequest"
+        },
+        {
+          "kind": "const",
+          "name": "ListBranchesRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "ListBranchesResponse"
+        },
+        {
+          "kind": "const",
+          "name": "ListBranchesResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "Branch"
+        },
+        {
+          "kind": "const",
+          "name": "BranchSchema"
+        },
+        {
+          "kind": "type",
+          "name": "ListTreeRequest"
+        },
+        {
+          "kind": "const",
+          "name": "ListTreeRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "ListTreeResponse"
+        },
+        {
+          "kind": "const",
+          "name": "ListTreeResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "TreeEntry"
+        },
+        {
+          "kind": "const",
+          "name": "TreeEntrySchema"
+        },
+        {
+          "kind": "type",
+          "name": "GetFileRequest"
+        },
+        {
+          "kind": "const",
+          "name": "GetFileRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "GetFileResponse"
+        },
+        {
+          "kind": "const",
+          "name": "GetFileResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "ListCommitsRequest"
+        },
+        {
+          "kind": "const",
+          "name": "ListCommitsRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "ListCommitsResponse"
+        },
+        {
+          "kind": "const",
+          "name": "ListCommitsResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "CommitEntry"
+        },
+        {
+          "kind": "const",
+          "name": "CommitEntrySchema"
+        },
+        {
+          "kind": "type",
+          "name": "GetBlameRequest"
+        },
+        {
+          "kind": "const",
+          "name": "GetBlameRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "GetBlameResponse"
+        },
+        {
+          "kind": "const",
+          "name": "GetBlameResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "BlameLine"
+        },
+        {
+          "kind": "const",
+          "name": "BlameLineSchema"
+        },
+        {
+          "kind": "type",
+          "name": "CompareBranchesRequest"
+        },
+        {
+          "kind": "const",
+          "name": "CompareBranchesRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "CompareBranchesResponse"
+        },
+        {
+          "kind": "const",
+          "name": "CompareBranchesResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "ChangedFile"
+        },
+        {
+          "kind": "const",
+          "name": "ChangedFileSchema"
+        },
+        {
+          "kind": "type",
+          "name": "GetDiffRequest"
+        },
+        {
+          "kind": "const",
+          "name": "GetDiffRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "GetDiffResponse"
+        },
+        {
+          "kind": "const",
+          "name": "GetDiffResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "GetStatusRequest"
+        },
+        {
+          "kind": "const",
+          "name": "GetStatusRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "GetStatusResponse"
+        },
+        {
+          "kind": "const",
+          "name": "GetStatusResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "StatusFile"
+        },
+        {
+          "kind": "const",
+          "name": "StatusFileSchema"
+        },
+        {
+          "kind": "type",
+          "name": "GetWorkingTreeDiffRequest"
+        },
+        {
+          "kind": "const",
+          "name": "GetWorkingTreeDiffRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "GetWorkingTreeDiffResponse"
+        },
+        {
+          "kind": "const",
+          "name": "GetWorkingTreeDiffResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "GetConfigRequest"
+        },
+        {
+          "kind": "const",
+          "name": "GetConfigRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "ConfigEntry"
+        },
+        {
+          "kind": "const",
+          "name": "ConfigEntrySchema"
+        },
+        {
+          "kind": "type",
+          "name": "GetConfigResponse"
+        },
+        {
+          "kind": "const",
+          "name": "GetConfigResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "UpdateConfigRequest"
+        },
+        {
+          "kind": "const",
+          "name": "UpdateConfigRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "UpdateConfigResponse"
+        },
+        {
+          "kind": "const",
+          "name": "UpdateConfigResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "GetFileChurnMapRequest"
+        },
+        {
+          "kind": "const",
+          "name": "GetFileChurnMapRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "FileChurn"
+        },
+        {
+          "kind": "const",
+          "name": "FileChurnSchema"
+        },
+        {
+          "kind": "type",
+          "name": "GetFileChurnMapResponse"
+        },
+        {
+          "kind": "const",
+          "name": "GetFileChurnMapResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "GetProviderCatalogRequest"
+        },
+        {
+          "kind": "const",
+          "name": "GetProviderCatalogRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "RefreshProviderCatalogRequest"
+        },
+        {
+          "kind": "const",
+          "name": "RefreshProviderCatalogRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "CatalogModel"
+        },
+        {
+          "kind": "const",
+          "name": "CatalogModelSchema"
+        },
+        {
+          "kind": "type",
+          "name": "PricingQuote"
+        },
+        {
+          "kind": "const",
+          "name": "PricingQuoteSchema"
+        },
+        {
+          "kind": "type",
+          "name": "CatalogProvider"
+        },
+        {
+          "kind": "const",
+          "name": "CatalogProviderSchema"
+        },
+        {
+          "kind": "type",
+          "name": "GetProviderCatalogResponse"
+        },
+        {
+          "kind": "const",
+          "name": "GetProviderCatalogResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "LLMProfile"
+        },
+        {
+          "kind": "const",
+          "name": "LLMProfileSchema"
+        },
+        {
+          "kind": "type",
+          "name": "ListProfilesRequest"
+        },
+        {
+          "kind": "const",
+          "name": "ListProfilesRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "ListProfilesResponse"
+        },
+        {
+          "kind": "const",
+          "name": "ListProfilesResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "SaveProfileRequest"
+        },
+        {
+          "kind": "const",
+          "name": "SaveProfileRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "SaveProfileResponse"
+        },
+        {
+          "kind": "const",
+          "name": "SaveProfileResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "DeleteProfileRequest"
+        },
+        {
+          "kind": "const",
+          "name": "DeleteProfileRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "DeleteProfileResponse"
+        },
+        {
+          "kind": "const",
+          "name": "DeleteProfileResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "ActivateProfileRequest"
+        },
+        {
+          "kind": "const",
+          "name": "ActivateProfileRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "ActivateProfileResponse"
+        },
+        {
+          "kind": "const",
+          "name": "ActivateProfileResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "DiscoverLocalEndpointsRequest"
+        },
+        {
+          "kind": "const",
+          "name": "DiscoverLocalEndpointsRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "LocalEndpoint"
+        },
+        {
+          "kind": "const",
+          "name": "LocalEndpointSchema"
+        },
+        {
+          "kind": "type",
+          "name": "DiscoverLocalEndpointsResponse"
+        },
+        {
+          "kind": "const",
+          "name": "DiscoverLocalEndpointsResponseSchema"
+        },
+        {
+          "kind": "type",
+          "name": "DiscoverModelsRequest"
+        },
+        {
+          "kind": "const",
+          "name": "DiscoverModelsRequestSchema"
+        },
+        {
+          "kind": "type",
+          "name": "DiscoverModelsResponse"
+        },
+        {
+          "kind": "const",
+          "name": "DiscoverModelsResponseSchema"
+        },
+        {
+          "kind": "enum",
+          "name": "EntryType"
+        },
+        {
+          "kind": "const",
+          "name": "EntryTypeSchema"
+        },
+        {
+          "kind": "const",
+          "name": "RepoService"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.pi-webui/
+.DS_Store
+*.log
+test-results/
+playwright-report/
+.test-dist/
+vendor/
+*.tgz
+# Keep historical runner evidence ignored after retiring its local ignore files.
+e2e/*/results/

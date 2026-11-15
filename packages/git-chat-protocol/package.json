@@ -1,0 +1,28 @@
+{
+  "name": "@jpahd/git-chat-protocol",
+  "version": "0.0.0",
+  "private": true,
+  "description": "GitChat protobuf messages and Connect service descriptors, independent of any UI or transport.",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "sideEffects": false,
+  "files": ["dist", "README.md", "docs", "LICENSE"],
+  "exports": {
+    "./auth": { "types": "./dist/gen/gitchat/v1/auth_pb.d.ts", "import": "./dist/gen/gitchat/v1/auth_pb.js" },
+    "./chat": { "types": "./dist/gen/gitchat/v1/chat_pb.d.ts", "import": "./dist/gen/gitchat/v1/chat_pb.js" },
+    "./repo": { "types": "./dist/gen/gitchat/v1/repo_pb.d.ts", "import": "./dist/gen/gitchat/v1/repo_pb.js" }
+  },
+  "dependencies": {
+    "@bufbuild/protobuf": "2.14.0"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc --noEmit -p tsconfig.json",
+    "check:api": "npm run build && tsc -p tsconfig.api.json",
+    "test": "npm run check:api && node --test ./test/*.test.mjs"
+  }
+}

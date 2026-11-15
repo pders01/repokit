@@ -1,0 +1,11 @@
+# TypeScript-only candidate generation. Run from this package directory.
+# Do not replace generated sources until the descriptor diff is approved.
+version: v2
+managed:
+  enabled: true
+plugins:
+  - remote: buf.build/bufbuild/es:v2.12.0
+    out: .sync/gen
+    opt:
+      - target=ts
+      - import_extension=js

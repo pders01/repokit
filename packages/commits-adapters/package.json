@@ -1,0 +1,35 @@
+{
+  "name": "@jpahd/commits-adapters",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Experimental host-side support for read-only Commits providers.",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "files": ["dist", "README.md", "LICENSE"],
+  "sideEffects": false,
+  "exports": {
+    "./common": { "types": "./dist/common.d.ts", "import": "./dist/common.js" },
+    "./git-chat": { "types": "./dist/git-chat-provider.d.ts", "import": "./dist/git-chat-provider.js" },
+    "./git-chat-transport": { "types": "./dist/git-chat-transport.d.ts", "import": "./dist/git-chat-transport.js" }
+  },
+  "peerDependencies": {
+    "@jpahd/commits-core": "^0.0.0",
+    "@jpahd/git-chat-protocol": "^0.0.0",
+    "@bufbuild/protobuf": "^2.14.0",
+    "@connectrpc/connect": "^2.1.2",
+    "@connectrpc/connect-web": "^2.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc --noEmit -p tsconfig.json",
+    "test": "npm run build && tsc -p tsconfig.test.json && node --test ./.test-dist/*.test.js ./node-test/*.node.mjs",
+    "check:package": "npm run build && node scripts/check-package.mjs",
+    "check:tests": "tsc --noEmit -p tsconfig.test.json",
+    "dev": "tsc -p tsconfig.json --watch"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@jpahd/repository-core": ["../dist/index.js"],
+      "@jpahd/repository-core/git": ["../dist/git.js"],
+      "@jpahd/repository-core/bounded-stream": ["../dist/bounded-stream.js"],
+      "@jpahd/repository-core/text-preview": ["../dist/text-preview.js"],
+      "@jpahd/repository-core/repository-log": ["../dist/repository-log.js"]
+    }
+  }
+}
